@@ -51,7 +51,7 @@ public class TempTracker {
     public Integer get_mode()
     {
         if(size>0)
-            return mode;
+            return fahrenheit[mode];
         else
             return null;
     }
@@ -62,7 +62,7 @@ public class TempTracker {
             return Double.parseDouble(sum/size+"");
         }
         else
-            return 0.0;
+]            return 0.0;
     }
     public static void main(String[] args) {
         TempTracker t=new TempTracker();
