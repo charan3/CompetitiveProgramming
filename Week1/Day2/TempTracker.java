@@ -51,7 +51,7 @@ public class TempTracker {
     public Integer get_mode()
     {
         if(size>0)
-            return fahrenheit[mode];
+            return mode;
         else
             return null;
     }
