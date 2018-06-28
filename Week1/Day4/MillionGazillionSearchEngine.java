@@ -34,12 +34,12 @@ class Trie
         }
         if(node.isEndOfWord==true)
         {
-            return true;
+            return false;
         }
         else
         {
             node.isEndOfWord = true;
-            return false;
+            return true;
         }
     }
     public boolean search(String key)
