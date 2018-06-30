@@ -1,4 +1,4 @@
-<!-- We're building a web game where everybody wins and we are all friends forever.
+<!-- We are building a web game where everybody wins and we are all friends forever.
 
 It's simple—you click on one of three boxes to see what nice thing you've won. You always win something nice. Because we love you.
 
