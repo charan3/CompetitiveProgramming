@@ -17,11 +17,11 @@ class ParenPerm
         else
         {
             if(open > close) {
-                str[pos] = '}';
+                str[pos] = ')';
                 printParen(str, pos+1, n, open, close+1);
             }
             if(open < n) {
-                str[pos] = '{';
+                str[pos] = '(';
                 printParen(str, pos+1, n, open+1, close);
             }
         }
